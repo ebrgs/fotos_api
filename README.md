@@ -26,60 +26,51 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Project setup
+## Para instalar as dependências do projeto
 
 ```bash
 $ npm install
 ```
 
-## Compile and run the project
+## Configurando arquivo env
+```
+Abra o arquivo .env.example e renomeie para .env
+em seguida adicione as informações necessárias para a conexão com o banco de dados
+```
+
+## Após a configuração do arquivo env
 
 ```bash
 # development
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
-## Run tests
+```
+Criação de Usuario
+```
+<img src="https://res.cloudinary.com/ddziipofa/image/upload/v1724601372/bmduuyejhvbciorphfft.png" alt="NPM Version" />
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+```
+Login de usuario
 ```
 
-## Resources
+<img src="https://res.cloudinary.com/ddziipofa/image/upload/v1724601372/am9on3givodxjqttedkp.png" alt="NPM Version" />
 
-Check out a few resources that may come in handy when working with NestJS:
+```
+Upload de imagem (Imagens devem ser inseridas na pasta fotos localizada na pasta src do projeto)
+Todos os métodos a partir daqui exigem autenticação via Bearer Token
+```
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+<img src="https://res.cloudinary.com/ddziipofa/image/upload/v1724601372/rmiylsd53dz9pkfed7k4.png" alt="NPM Version" />
 
-## Support
+```
+Retornando todas as imagens relacionadas ao id do usuario
+```
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+<img src="https://res.cloudinary.com/ddziipofa/image/upload/v1724601372/v5zwc9laurnpskqbmyf6.png" alt="NPM Version" />
 
-## Stay in touch
+```
+Deletando a imagem do usuario utilizando o id publico e apenas se o usuario autenticado for o dono da imagem.
+```
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+<img src="https://res.cloudinary.com/ddziipofa/image/upload/v1724601372/gad4zq7abud7s3cpmxqt.png" alt="NPM Version" />
